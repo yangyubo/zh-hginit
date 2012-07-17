@@ -264,7 +264,7 @@ Mercurial 提醒我创建了一个新的版本头 (head). 现在我们有两个�
 
 由于这些版本库的历史截止到 14 号变更集为止都是相同的, Mercurial 实际上会使用文件系统的一个内部功能 (硬链接) 避免做实际的复制操作. 这使得 **hg clone** 操作快速而廉价, 所以你不用在一次次的 ``clone`` 操作时纠结了.
 
-现在我们基于 **dev** 版本库继续编辑 ``guac``:
+现在我们基于 **dev** 版本库继续编辑 ``guac``::
 
     C:\Users\joel> cd recipes-dev
 
@@ -395,4 +395,3 @@ Mercurial 提醒我创建了一个新的版本头 (head). 现在我们有两个�
 嗯, 不知不觉我们的教程接近尾声了. 我尚未能 *涉及* 到 Mercurial 的方方面面, 但是有大量资料会帮助你更深入的去挖掘. 有 `一本书 <http://hgbook.red-bean.com/>`_ 涵盖了 Mercurial 的所有功能和完整细节. 而且如果你有任何疑问, 我都毫不犹豫的邀请你访问 `Kiln Knowledge Exchange <http://kiln.stackexchange.com/>`_ (它和 `StackOverflow <http://stackoverflow.com/>`_ 很像, 但只有 Kiln 和 Mercurial 相关问题才会受到关注和欢迎.)
 
 (译注: Kiln 和 StackOverflow 都是 Joel Spolsky 所在公司的产品, Joel 趁势打了个广告 :) )
-
