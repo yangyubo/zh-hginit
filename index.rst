@@ -3,8 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 HgInit (中文版)
 ============================
+
+
+:翻译:
+    .. line-block::
+
+        `brantyoung <http://yangyubo.com>`_
+
+:项目主页:
+    - `hginit.com <http://hginit.com>`_
+    - `hginit.com - 中文版 <http://github.com/brantyoung/zh-hginit>`_
+
 
 译者前言
 -----------------
@@ -48,14 +60,10 @@ Joel Spolsky 在技术写作和表达方面可谓是非常优秀. HgInit 不仅�
 
 .. toctree::
    :maxdepth: 2
-   
+
    re-education
    groundup
    setting-up
    fixing
    merging
    architecture
-
-
-* :ref:`搜索 <search>`
-
